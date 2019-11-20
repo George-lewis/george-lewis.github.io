@@ -1,5 +1,5 @@
 * {
-    color: $text-color;
+    color: white;
 }
 
 html, body {
@@ -15,7 +15,8 @@ h1 {
 }
 
 body {
-    background-color: $background-color;
+    background-image: url("/_assets/bg.jpg");
+    background-position-y: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -27,6 +28,32 @@ footer {
     font-size: 1rem;
 }
 
-.container {
-    padding-top: 20px;
+#copyright {
+    padding: 20px;
+}
+
+#outercontainer {
+    height:100%;
+    display:flex;
+    justify-content: center;
+}
+
+#content {
+    padding: 50px;
+    align-self: center;
+    width: 70%;
+}
+
+#content {
+    background-color: rgba(0,0,0,0.2);
+    backdrop-filter: blur(15px);
+    text-align: center;
+}
+
+#content > h1 {
+    margin-bottom: 25px;
+}
+
+#copyright {
+    background-color: rgba(0,0,0,0.8);
 }
