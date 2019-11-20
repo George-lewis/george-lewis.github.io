@@ -6,6 +6,10 @@ html, body {
     height: 100%;
 }
 
+.navbar-dark, .bg-dark {
+    background-color: $header-background !important;
+}
+
 h1 {
     color: white;
 }
