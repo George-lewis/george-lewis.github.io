@@ -1,0 +1,19 @@
+html, body, main {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 30px;
+    font-size: 1rem;
+}
+
+.container {
+    padding-top: 20px;
+}
