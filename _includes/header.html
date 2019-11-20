@@ -1,0 +1,14 @@
+<header>
+    <div id="header">
+        <span id="logo">
+            <h2><a href="/">George Lewis</a></h2>
+        </span>
+    <span id="page-links">
+        {% for page in site.pages %}
+            {% if page.title %}
+                <h3 class="page-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
+            {% endif %}
+        {% endfor %}
+    </span>
+    </div>
+</header>
