@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/_variables.scss",
+		"_sass/_base.scss"
+	],
+	"sourcesContent": [
+		"@import \"variables\", \"base\";",
+		"/* --- COLORS --- */\n\n$header-background: #292a2d;",
+		"#header {\n    display: flex;\n    height: 80px;\n    background-color: $header-background;\n    align-items: center;\n    justify-content: space-between;\n    padding: 30px;\n}\n\na, a:visited, a:hover, a:active {\n    color: #A9A9B3;\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,oBAAoB;ACApB,AAAA,OAAO,CAAC,EACJ,OAAO,EAAE,IAAI,EACb,MAAM,EAAE,IAAI,EACZ,gBAAgB,EDDA,OAAO,ECEvB,WAAW,EAAE,MAAM,EACnB,eAAe,EAAE,aAAa,EAC9B,OAAO,EAAE,IAAI,GAChB;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,QAAQ,EAAE,CAAC,AAAA,MAAM,EAAE,CAAC,AAAA,OAAO,CAAC,EAC5B,KAAK,EAAE,OAAO,GACjB"
+}
