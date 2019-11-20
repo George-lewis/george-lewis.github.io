@@ -8,9 +8,9 @@
 	],
 	"sourcesContent": [
 		"@import \"variables\", \"base\";",
-		"/* --- COLORS --- */\n\n$header-background: #292a2d;",
-		"#header {\n    display: flex;\n    height: 80px;\n    background-color: $header-background;\n    align-items: center;\n    justify-content: space-between;\n    padding: 30px;\n}\n\na, a:visited, a:hover, a:active {\n    color: #A9A9B3;\n}"
+		"/* --- COLORS --- */\n\n$background-color: #292a2d;\n$text-color: #a9a9b3;",
+		"* {\n    color: $text-color;\n}\n\nhtml, body, main {\n    height: 100%;\n}\n\nbody {\n    background-color: $background-color;\n    display: flex;\n    flex-direction: column;\n}\n\nfooter {\n    text-align: center;\n    margin-top: auto;\n    padding: 30px;\n    font-size: 1rem;\n}\n\n.container {\n    padding-top: 20px;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,oBAAoB;ACApB,AAAA,OAAO,CAAC,EACJ,OAAO,EAAE,IAAI,EACb,MAAM,EAAE,IAAI,EACZ,gBAAgB,EDDA,OAAO,ECEvB,WAAW,EAAE,MAAM,EACnB,eAAe,EAAE,aAAa,EAC9B,OAAO,EAAE,IAAI,GAChB;;AAED,AAAA,CAAC,EAAE,CAAC,AAAA,QAAQ,EAAE,CAAC,AAAA,MAAM,EAAE,CAAC,AAAA,OAAO,CAAC,EAC5B,KAAK,EAAE,OAAO,GACjB"
+	"mappings": "ACAA,oBAAoB;ACApB,AAAA,CAAC,CAAC,EACE,KAAK,EDEI,OAAO,GCDnB;;AAED,AAAA,IAAI,EAAE,IAAI,EAAE,IAAI,CAAC,EACb,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,IAAI,CAAC,EACD,gBAAgB,EDPD,OAAO,ECQtB,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,GACzB;;AAED,AAAA,MAAM,CAAC,EACH,UAAU,EAAE,MAAM,EAClB,UAAU,EAAE,IAAI,EAChB,OAAO,EAAE,IAAI,EACb,SAAS,EAAE,IAAI,GAClB;;AAED,AAAA,UAAU,CAAC,EACP,WAAW,EAAE,IAAI,GACpB"
 }

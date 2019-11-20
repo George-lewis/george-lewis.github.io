@@ -1,6 +1,12 @@
 /* --- COLORS --- */
-#header { display: flex; height: 80px; background-color: #292a2d; align-items: center; justify-content: space-between; padding: 30px; }
+* { color: #a9a9b3; }
 
-a, a:visited, a:hover, a:active { color: #A9A9B3; }
+html, body, main { height: 100%; }
+
+body { background-color: #292a2d; display: flex; flex-direction: column; }
+
+footer { text-align: center; margin-top: auto; padding: 30px; font-size: 1rem; }
+
+.container { padding-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,8 +1,13 @@
+* {
+    color: $text-color;
+}
+
 html, body, main {
     height: 100%;
 }
 
 body {
+    background-color: $background-color;
     display: flex;
     flex-direction: column;
 }
