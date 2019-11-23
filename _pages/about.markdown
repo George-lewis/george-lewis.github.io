@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 order: 1
 ---
+
+<img src="/_assets/me.png" alt="A picture of me." class="img-fluid" id="me" />
+
 Hello! 你好!
 
 I'm a computer science and Chinese language student at the
