@@ -39,12 +39,10 @@ footer {
 }
 
 #content {
-    padding: 50px;
+	border: 1px solid white;
+    padding: 40px;
     align-self: center;
     width: 70%;
-}
-
-#content {
     background-color: rgba(0,0,0,0.2);
     backdrop-filter: blur(15px);
     text-align: center;
