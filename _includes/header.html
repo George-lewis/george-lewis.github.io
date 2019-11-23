@@ -14,7 +14,7 @@
             {% for page in sorted_pages %}
                 {% if page.title %}
                     <li class="nav-item"></li>
-                        <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h3>
+                        <a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{% if page.title_override %}{{ page.title_override }}{% else %}{{ page.title }}{% endif %}</a></h3>
                     </li>
                 {% endif %}
             {% endfor %}
