@@ -9,4 +9,4 @@ order: 0
 
 Hey welcome to my website
 
-[Github](https://github.com/George-Lewis/)
+<a href="https://github.com/George-Lewis/" class="btn btn-outline-light">Github</a>
