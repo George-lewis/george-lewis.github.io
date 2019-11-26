@@ -1,0 +1,13 @@
+---
+layout: page
+title: Blog
+order: 4
+---
+
+{% for post in site.posts %}
+
+<a class="btn btn-outline-light" href="{{ post.url }}"><p class="post-title">{{ post.title }}</p></a>
+	<p>{{ post.excerpt }}</p>
+
+{% endfor %}
+
