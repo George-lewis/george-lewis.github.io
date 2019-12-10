@@ -4,6 +4,7 @@
 layout: page
 title: George Lewis | 乔治
 title_override: Home
+css: index.css
 order: 0
 ---
 
@@ -11,7 +12,7 @@ order: 0
 <a href="https://www.linkedin.com/in/george-jeffrey-lewis/" class="btn btn-outline-light">LinkedIn</a>
 
 <div>
-<div style="border: 1px solid white; max-width: 70%; display: inline-block; padding: 20px;">
+<div id="contact-info">
 <p>
 Contact Information:
 <br>

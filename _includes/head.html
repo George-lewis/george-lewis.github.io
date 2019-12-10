@@ -6,22 +6,17 @@
 
 	<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="/_assets/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/_assets/bootstrap.min.css">
 
-<!-- Optional theme -->
-<!--<link rel="stylesheet" href="/_assets/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="/css/main.css">
 
-<link rel="stylesheet" href="/css/main.css">
-
-{% for static_file in site.static_files %}
-    {% if static_file.path == '/css/{{ page.title }}.css' %}
-        <link rel="stylesheet" href="{{ static_file.path }}">
+    {% if page.css %}
+        <link rel="stylesheet" href="/css/{{ page.css }}">
     {% endif %}
-{% endfor %}
 
-<title>{{ site.title }}</title>
+    <title>{{ site.title }}</title>
 
-<!--<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>-->
+    <!--<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>-->
 
 </head>
