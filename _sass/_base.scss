@@ -50,7 +50,7 @@ footer {
 	border: 1px solid white;
     padding: 40px;
     align-self: center;
-    width: 70%;
+    width: 100%;
     background-color: rgba(0,0,0,0.2);
     backdrop-filter: blur(15px);
     text-align: center;
@@ -66,4 +66,10 @@ footer {
 
 #me {
 	max-width: 50%;
+}
+
+@media (min-width: 992px) { 
+    #content {
+        width: 70% !important;
+    }
 }

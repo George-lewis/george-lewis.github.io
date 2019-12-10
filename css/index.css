@@ -2,7 +2,7 @@
 
     border: 1px solid white;
     
-    max-width: 70%;
+    width: 100%;
     
     display: inline-block;
     
@@ -14,4 +14,10 @@
     
     margin: 0;
 
+}
+
+@media (min-width: 992px) { 
+    #contact-info {
+        width: 50%;
+    }
 }
