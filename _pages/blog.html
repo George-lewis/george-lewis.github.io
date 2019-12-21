@@ -7,7 +7,7 @@ order: 4
 
 {% for post in site.posts %}
 
-<a class="btn btn-outline-light" href="{{ post.url }}"><p class="post-title">{{ post.title }}</p></a>
+<a class="btn btn-outline-light post-title" href="{{ post.url }}">{{ post.title }}</a>
 	<p>{{ post.excerpt }}</p>
 
 {% endfor %}
