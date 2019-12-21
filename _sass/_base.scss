@@ -40,8 +40,17 @@ footer {
     padding: 20px;
 }
 
+/*
+Note regarding centering of #content:
+- In order for #content to be centered:
+    - #content needs align-self:center
+    - #outercontainer needs to span the entire height
+        - height:100%
+        - The problem is that this fixes the height and means that it wont expand when the height of content exceeds that of the window
+        - Which is why its removed for now
+*/
+
 #outercontainer {
-    height:100%;
     display:flex;
     justify-content: center;
 }
@@ -49,11 +58,11 @@ footer {
 #content {
 	border: 1px solid white;
     padding: 40px;
-    align-self: center;
     width: 100%;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.3);
     backdrop-filter: blur(15px);
     text-align: center;
+    margin-top: 25px;
 }
 
 #content > h1 {
