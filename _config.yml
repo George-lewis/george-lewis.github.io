@@ -27,7 +27,7 @@ url: "https://georgelewis.ca" # the base hostname & protocol for your site, e.g.
 twitter_username: jekyllrb
 github_username:  George-Lewis
 
-include: ['_pages', '_assets']
+include: ['_pages', '_assets', '_js']
 
 sass:
   sass_dir: _sass
