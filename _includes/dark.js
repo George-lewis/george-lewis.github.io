@@ -42,7 +42,7 @@ $(document).ready(onload)
         if (count > 3) {
             console.log("iframe css insertion failed, trying again in 10ms")
             setTimeout(init_iframe, 10)
-            break
+            return
         }
     }
     if (localStorage.getItem("mode") === "dark") {
