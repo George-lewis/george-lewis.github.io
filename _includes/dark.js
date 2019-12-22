@@ -10,6 +10,8 @@ function onload() {
 
     if (frame.length > 0) {
         frame.ready(init_iframe)
+    } else {
+        console.log("iframe not present")
     }
 
 }
@@ -21,7 +23,6 @@ $(document).ready(onload)
     var links = $("#frame").contents().find("head link")
 
     for (i = 0; i < links.length; i++) {
-        console.log("Scane: " + links[i].href)
         if (links[i].href.endsWith("dark.css")) {
             return true
         }
@@ -39,7 +40,7 @@ $(document).ready(onload)
         frame.find("head").append("<link rel=\"stylesheet\" href=\"/css/dark.css\">")
         count++
         if (count > 3) {
-            console.log("Breaking with " + count + " failed attempts")
+            console.log("iframe css insertion failed, trying again in 10ms")
             setTimeout(init_iframe, 10)
             break
         }
