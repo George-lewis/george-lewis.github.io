@@ -1,5 +1,3 @@
-var iframe_init = false
-
 function onload() {
 
     if (localStorage.getItem("mode") === "dark") {
