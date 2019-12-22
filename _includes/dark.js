@@ -6,7 +6,11 @@ function onload() {
         localStorage.setItem("mode", "light")
     }
 
-    $("#frame").ready(init_iframe)
+    var frame = $("#frame")
+
+    if (frame.length > 0) {
+        frame.ready(init_iframe)
+    }
 
 }
 
