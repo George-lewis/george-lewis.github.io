@@ -98,4 +98,6 @@ function toggle_mode() {
 
     }
 
+    set_paper()
+
 }
