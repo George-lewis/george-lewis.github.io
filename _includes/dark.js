@@ -61,6 +61,8 @@ $(document).ready(onload)
 
         body.toggleClass("iframe-body-dark")
 
+        body.find("code").toggleClass("code-dark")
+
     }
 
  }

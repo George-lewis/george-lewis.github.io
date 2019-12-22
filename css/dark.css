@@ -6,3 +6,11 @@
     background-color: #202020 !important;
     color: #eeeeee !important;
 }
+
+.code-dark {
+    background-color: #202020 !important;
+}
+
+.CodeMirror {
+    color:rgb(51, 51, 51) !important;
+}
