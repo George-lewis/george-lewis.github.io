@@ -9,12 +9,14 @@
 
 .code-dark {
     background-color: #202020 !important;
+    padding: 3px;
 }
 
-.CodeMirror {
+.md-fences-dark {
     color:rgb(51, 51, 51) !important;
+    background-color: #eeeeee !important;
 }
 
 .blockquote-dark {
-    color: #cccccc;
+    color: #bbbbbb;
 }

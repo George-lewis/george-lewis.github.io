@@ -64,6 +64,8 @@ $(document).ready(onload)
 
         body.toggleClass("iframe-body-dark")
 
+        body.find(".md-fences").toggleClass("md-fences-dark")
+
         body.find("code").toggleClass("code-dark")
 
         body.find("blockquote").toggleClass("blockquote-dark")
