@@ -14,3 +14,7 @@
 .CodeMirror {
     color:rgb(51, 51, 51) !important;
 }
+
+.blockquote-dark {
+    color: #cccccc;
+}

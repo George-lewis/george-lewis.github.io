@@ -66,6 +66,8 @@ $(document).ready(onload)
 
         body.find("code").toggleClass("code-dark")
 
+        body.find("blockquote").toggleClass("blockquote-dark")
+
     }
 
  }
