@@ -1,6 +1,9 @@
+// These values represent how many different wallpapers are available
+// For the dark (dpapers) and light (lpapers) themes
 dpapers = 10
 lpapers = 1
 
+// Runs on page load
 function onload() {
 
     theme = localStorage.getItem("mode")
@@ -8,6 +11,8 @@ function onload() {
     lpaper = localStorage.getItem("lpaper")
 
     dpaper = localStorage.getItem("dpaper")
+
+    // Set the default papers if there is no value
 
     if (!lpaper) {
         localStorage.setItem("lpaper", "1")
@@ -19,6 +24,7 @@ function onload() {
         dpaper = "6"
     }
 
+    // Set the wallpaper
     if (theme === "dark") {
 
         set_paper(dpaper)
@@ -33,18 +39,23 @@ function onload() {
 
 $(document).ready(onload)
 
+// Sets the body's background
 function set_paper(i = null, type = null) {
 
+    // Get the theme from local store or use a supplied override
     theme = (type) ? type : localStorage.getItem("mode")
 
+    // If a number wasnt supplied then get one from local storage
     if (!i) {
         i = (theme === "dark") ? localStorage.getItem("dpaper") : localStorage.getItem("lpaper")
     }
 
+    // Path to wallpaper
     path = "/_assets/bg/" + theme + "/bg" + i + ".jpg"
 
     console.log("Set wallpaper to: " + path)
 
+    // Set it
     $("body").css("background-image", "url('"+path+"')")
 
 }
@@ -57,14 +68,19 @@ function change_wallpaper() {
 
     if (theme === "dark") {
 
+        // Increase wallpaper index
         paper = parseInt(localStorage.getItem("dpaper")) + 1
 
+        // Reset index if its larger than the # of wallpapers
+        // The wallpapers are indexed starting at one (subject to change)
         if (paper > dpapers) {
             paper = 1
         }
 
+        // Set the new value
         localStorage.setItem("dpaper", paper.toString())
 
+        // Update
         set_paper(paper)
 
     } else {

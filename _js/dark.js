@@ -1,15 +1,18 @@
+// Runs when the page is loaded
 function onload() {
 
+    // Toggle into dark mode if local storage is set to dark
     if (localStorage.getItem("mode") === "dark") {
         toggle_mode()
-    } else {
+    } else { // There is no stored value or its "light" (or something else)
         localStorage.setItem("mode", "light")
     }
 
     var frame = $("#frame")
 
+    // If frame exists
     if (frame.length > 0) {
-        frame.ready(init_iframe)
+        frame.ready(init_iframe) // Init the frame
     } else {
         console.log("iframe not present")
     }
@@ -18,7 +21,7 @@ function onload() {
 
 $(document).ready(onload)
 
- function check_iframe() {
+function check_iframe() {
 
     var links = $("#frame").contents().find("head link")
 
@@ -32,7 +35,9 @@ $(document).ready(onload)
 
  }
 
- function init_iframe() {
+// The iframe'd content doesn't inherit CSS from the outer context
+// So we must add the stylesheet into the iframe manually
+function init_iframe() {
     console.log("Init iframe")
     var frame = $("#frame").contents()
     var count = 0
@@ -40,6 +45,8 @@ $(document).ready(onload)
         frame.find("head").append("<link rel=\"stylesheet\" href=\"/css/dark.css\">")
         count++
         if (count > 3) {
+            // For some reason this line can randomly and repeatedly fail
+            // So we try again in 10ms, again and again, until it works
             console.log("iframe css insertion failed, trying again in 10ms")
             setTimeout(init_iframe, 10)
             return
@@ -48,9 +55,10 @@ $(document).ready(onload)
     if (localStorage.getItem("mode") === "dark") {
         toggle_iframe()
     }
- }
+}
 
- function toggle_iframe() {
+// Toggles all the classes necessary to make the iframe dark-theme
+function toggle_iframe() {
 
     var frame = $("#frame").contents()
 
@@ -72,8 +80,9 @@ $(document).ready(onload)
 
     }
 
- }
+}
 
+// Toggles dark theme
 function toggle_mode() {
 
     var dl = $("#darklight")
@@ -88,6 +97,7 @@ function toggle_mode() {
 
         dl.text("Light")
 
+        // Update the local storage
         localStorage.setItem("mode", "dark")
 
     } else if (text === "light") {
@@ -98,6 +108,7 @@ function toggle_mode() {
 
     }
 
+    // The paper needs to be updated
     set_paper()
 
 }
