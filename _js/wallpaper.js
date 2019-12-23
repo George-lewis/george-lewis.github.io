@@ -63,10 +63,10 @@ function set_paper(i = null, type = null) {
     // Path to wallpaper
     path = "/_assets/bg/" + theme + "/bg" + i + ".jpg"
 
-    url = "url('" + path + "')"
+    url = "url(\"" + path + "\")"
 
     // Don't want to set it to a value it's already set to
-    if ($("body").css("background-image") !== url) {
+    if (!$("body").css("background-image").includes(path)) {
         // Set it
         console.log("Set wallpaper to: " + path)
         $("body").css("background-image", url)
