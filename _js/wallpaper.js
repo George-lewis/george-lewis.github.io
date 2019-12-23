@@ -1,7 +1,7 @@
 // These values represent how many different wallpapers are available
 // For the dark (dpapers) and light (lpapers) themes
-dpapers = 10
-lpapers = 1
+dpapers = 11
+lpapers = 6
 
 // Runs on page load
 function onload() {
