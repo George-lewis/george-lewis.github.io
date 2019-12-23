@@ -71,6 +71,8 @@ function set_paper(i = null, type = null) {
     if ($("body").css("background-image") !== url) {
         // Set it
         $("body").css("background-image", url)
+    } else {
+        console.log("Setting wallpaper to '" + path + "' would have no effect -- not setting")
     }
 
 }
