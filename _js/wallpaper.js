@@ -54,15 +54,23 @@ function set_paper(i = null, type = null) {
     // If a number wasnt supplied then get one from local storage
     if (!i) {
         i = (theme === "dark") ? localStorage.getItem("dpaper") : localStorage.getItem("lpaper")
+        if (!i) { // There's nothing we can do.
+            return // If this happens it might mean that when 
+        }
     }
 
     // Path to wallpaper
     path = "/_assets/bg/" + theme + "/bg" + i + ".jpg"
 
+    url = "url('" + path + "')"
+
     console.log("Set wallpaper to: " + path)
 
-    // Set it
-    $("body").css("background-image", "url('"+path+"')")
+    // Don't want to set it to a value it's already set to
+    if ($("body").css("background-image") !== url) {
+        // Set it
+        $("body").css("background-image", url)
+    }
 
 }
 
