@@ -32,6 +32,8 @@ $(document).ready(onload)
 // Toggles all the classes necessary to make the iframe dark-theme
 function toggle_iframe() {
 
+    let framec = frame.contents()
+
     if (iframe) {
 
         let html = framec.find("html")
