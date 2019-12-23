@@ -55,6 +55,7 @@ function set_paper(i = null, type = null) {
     if (!i) {
         i = (theme === "dark") ? localStorage.getItem("dpaper") : localStorage.getItem("lpaper")
         if (!i) { // There's nothing we can do.
+            console.error("set_paper() was invoked with no parameters but local storage contains no entry for " + theme + " theme")
             return // If this happens it might mean that when 
         }
     }
