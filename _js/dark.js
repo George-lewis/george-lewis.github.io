@@ -1,7 +1,7 @@
 // Runs when the page is loaded
 function onload() {
 
-    theme = localStorage.getItem("mode")
+    let theme = localStorage.getItem("mode")
 
     // Toggle into dark mode if local storage is set to dark
     if (theme === "dark") {
@@ -34,27 +34,17 @@ function toggle_iframe() {
 
     if (iframe) {
 
-        console.log("Toggle iframe")
+        let html = framec.find("html")
 
-        var html = framec.find("html")
-
-        var body = framec.find("body")
-
-        console.log(html.attr("class"))
+        let body = framec.find("body")
 
         html.toggleClass("iframe-body-dark")
-
-        console.log(html.attr("class"))
 
         body.toggleClass("iframe-body-dark")
 
         body.find(".md-fences").toggleClass("md-fences-dark")
 
-        console.log(body.find("code").attr("class"))
-
         body.find("code").toggleClass("code-dark")
-
-        console.log(body.find("code").attr("class"))
 
         body.find("blockquote").toggleClass("blockquote-dark")
 
@@ -65,9 +55,9 @@ function toggle_iframe() {
 // Toggles dark theme
 function toggle_mode(initial = false) {
 
-    var dl = $("#darklight")
+    let dl = $("#darklight")
 
-    var text = dl.text().toLowerCase()
+    let text = dl.text().toLowerCase()
 
     if (!initial) {
         if (iframe) {

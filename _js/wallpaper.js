@@ -1,7 +1,7 @@
 // These values represent how many different wallpapers are available
 // For the dark (dpapers) and light (lpapers) themes
-dpapers = 12
-lpapers = 8
+var dpapers = 12
+var lpapers = 8
 
 // Runs on page load
 function onload() {
@@ -11,11 +11,11 @@ function onload() {
         return
     }
 
-    theme = localStorage.getItem("mode")
+    let theme = localStorage.getItem("mode")
 
-    lpaper = localStorage.getItem("lpaper")
+    let lpaper = localStorage.getItem("lpaper")
 
-    dpaper = localStorage.getItem("dpaper")
+    let dpaper = localStorage.getItem("dpaper")
 
     // Set the default papers if there is no value
 
@@ -59,7 +59,7 @@ function set_paper(i = null, type = null) {
     }
 
     // Get the theme from local store or use a supplied override
-    theme = (type) ? type : localStorage.getItem("mode")
+    let theme = (type) ? type : localStorage.getItem("mode")
 
     // If a number wasnt supplied then get one from local storage
     if (!i) {
@@ -71,9 +71,9 @@ function set_paper(i = null, type = null) {
     }
 
     // Path to wallpaper
-    path = "/_assets/bg/" + theme + "/bg" + i + ".jpg"
+    let path = "/_assets/bg/" + theme + "/bg" + i + ".jpg"
 
-    url = "url(\"" + path + "\")"
+    let url = "url(\"" + path + "\")"
 
     // Don't want to set it to a value it's already set to
     if (!$("body").css("background-image").includes(path)) {
@@ -90,12 +90,12 @@ function change_wallpaper() {
 
     console.log("Change wallpaper!")
 
-    theme = localStorage.getItem("mode")
+    let theme = localStorage.getItem("mode")
 
     if (theme === "dark") {
 
         // Increase wallpaper index
-        paper = parseInt(localStorage.getItem("dpaper")) + 1
+        let paper = parseInt(localStorage.getItem("dpaper")) + 1
 
         // Reset index if its larger than the # of wallpapers
         // The wallpapers are indexed starting at one (subject to change)
@@ -111,7 +111,7 @@ function change_wallpaper() {
 
     } else {
 
-        paper = parseInt(localStorage.getItem("lpaper")) + 1
+        let paper = parseInt(localStorage.getItem("lpaper")) + 1
 
         if (paper > lpapers) {
             paper = 1

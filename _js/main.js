@@ -1,3 +1,3 @@
-frame = $("#frame")
-framec = frame.contents()
-iframe = frame.length > 0
+var frame = $("#frame")
+var framec = frame.contents()
+var iframe = frame.length > 0
