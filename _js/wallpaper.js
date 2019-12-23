@@ -6,6 +6,11 @@ lpapers = 8
 // Runs on page load
 function onload() {
 
+    if (iframe) {
+        console.log("iframe detected - not setting wallpaper")
+        return
+    }
+
     theme = localStorage.getItem("mode")
 
     lpaper = localStorage.getItem("lpaper")
@@ -47,6 +52,11 @@ $(document).ready(onload)
 
 // Sets the body's background
 function set_paper(i = null, type = null) {
+
+    if (iframe) {
+        console.log("Background not set due to prescence of iframe")
+        return
+    }
 
     // Get the theme from local store or use a supplied override
     theme = (type) ? type : localStorage.getItem("mode")

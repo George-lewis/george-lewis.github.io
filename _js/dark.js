@@ -11,10 +11,8 @@ function onload() {
         $("#frame").css("visibility", "visible")
     }
 
-    var frame = $("#frame")
-
     // If frame exists
-    if (frame.length > 0) {
+    if (iframe) {
         if (theme === "dark") {
             frame.on("load", function() {
                 toggle_iframe()
@@ -36,9 +34,9 @@ function toggle_iframe() {
 
     console.log("Toggle iframe")
 
-    var frame = $("#frame").contents()
+    var frame = frame.contents()
 
-    if (frame.length) {
+    if (iframe) {
 
         var html = frame.find("html")
 
@@ -74,7 +72,7 @@ function toggle_mode(initial = false) {
     var text = dl.text().toLowerCase()
 
     if (!initial) {
-        if ($("#frame").length > 0) {
+        if (iframe) {
             toggle_iframe()
         }
     }
