@@ -5,7 +5,7 @@ var firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1
 
 if (firefox) {
 
-    $(document).load(function() {
+    $(window).load(function() {
 
         // Header color
         $("#content").css("background-color", "#202020")
