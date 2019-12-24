@@ -27,7 +27,11 @@ function onload() {
 
 }
 
-$(document).ready(onload)
+if (firefox) {
+    $(document).load(onload)
+} else {
+    $(document).ready(onload)
+}
 
 // Toggles all the classes necessary to make the iframe dark-theme
 function toggle_iframe() {
