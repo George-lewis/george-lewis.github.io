@@ -28,7 +28,7 @@ function onload() {
 }
 
 if (firefox) {
-    $(window).load(onload)
+    $(window).on("load", onload)
 } else {
     $(document).ready(onload)
 }
