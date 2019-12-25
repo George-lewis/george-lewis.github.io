@@ -104,6 +104,8 @@ function toggle_mode(initial = false) {
 
     }
 
+    $("nav").css("visibility", "visible")
+
     // The paper needs to be updated
     set_paper()
 
