@@ -1,7 +1,3 @@
-* {
-    color: white;
-}
-
 html, body {
     height: 100%;
 }
@@ -10,7 +6,7 @@ html, body {
     background-color: $header-background !important;
 }
 
-h1 {
+h1, p {
     color: white;
 }
 
