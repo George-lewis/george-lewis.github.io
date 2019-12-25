@@ -80,11 +80,27 @@ function toggle_mode(initial = false) {
         // Update the local storage
         localStorage.setItem("mode", "dark")
 
+        $("nav").addClass("navbar-dark bg-dark")
+
+        $("nav").removeClass("navbar-light bg-light")
+
+        $("nav button").addClass("btn-outline-light")
+
+        $("nav button").removeClass("btn-outline-dark")
+
     } else if (text === "light") {
 
         dl.text("Dark")
 
         localStorage.setItem("mode", "light")
+
+        $("nav").removeClass("navbar-dark bg-dark")
+
+        $("nav").addClass("navbar-light bg-light")
+
+        $("nav button").removeClass("btn-outline-light")
+
+        $("nav button").addClass("btn-outline-dark")
 
     }
 
