@@ -87,6 +87,19 @@ function set_paper(i = null, type = null) {
         console.log("Setting wallpaper to '" + path + "' would have no effect -- not setting")
     }
 
+    let img = document.createElement("img")
+
+    img.addEventListener("load", function() {
+        Vibrant.from(img).getPalette().then(
+            function(palette){
+                let vib = palette["Vibrant"].getRgb()
+                $(".navbar-brand").css("color", "rgb(" + vib[0] + "," + vib[1] + "," +vib[2] + ")")
+            }
+        )
+    })
+
+    img.src = path
+
 }
 
 function change_wallpaper() {
