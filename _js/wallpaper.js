@@ -53,6 +53,20 @@ function onload() {
 
 $(document).ready(onload)
 
+function luminanace(r, g, b) {
+    var a = [r, g, b].map(function (v) {
+        v /= 255;
+        return v <= 0.03928
+            ? v / 12.92
+            : Math.pow( (v + 0.055) / 1.055, 2.4 );
+    });
+    return a[0] * 0.2126 + a[1] * 0.7152 + a[2] * 0.0722;
+}
+function contrast(rgb1, rgb2) {
+    return (luminanace(rgb1[0], rgb1[1], rgb1[2]) + 0.05)
+         / (luminanace(rgb2[0], rgb2[1], rgb2[2]) + 0.05);
+}
+
 // Sets the body's background
 function set_paper(i = null, type = null) {
 
@@ -93,6 +107,38 @@ function set_paper(i = null, type = null) {
         Vibrant.from(img).getPalette().then(
             function(palette){
                 let vib = palette["Vibrant"].getRgb()
+                // if (theme === "dark") {
+                //     var vib = palette["LightVibrant"].getRgb()
+                // } else {
+                //     var vib = palette["DarkVibrant"].getRgb()
+                // }
+
+            
+                let col = $("nav").css("background-color").replace("rgb(", "").replace(")", "").split(", ")
+
+                let c = contrast(vib, col)
+
+                console.log(c)
+
+                if (c > 0.55 && theme === "light" || c < 3.5 && theme === "dark") {
+                    if (theme === "dark") {
+                        vib = palette["LightVibrant"].getRgb()
+                    } else {
+                        vib = palette["DarkVibrant"].getRgb()
+                    }
+                }
+
+                c = contrast(vib, col)
+
+                console.log(c)
+
+                if (c > 0.55 && theme === "light" || c < 3.5 && theme === "dark") {
+                    $(".navbar-brand").css("color","")
+                    return
+                }
+
+                console.log("set")
+
                 $(".navbar-brand").css("color", "rgb(" + vib[0] + "," + vib[1] + "," +vib[2] + ")")
             }
         )
