@@ -84,9 +84,9 @@ function toggle_mode(initial = false) {
 
         $("nav").removeClass("navbar-light bg-light")
 
-        $("nav button").addClass("btn-outline-light")
+        $("#navbarSupportedContent button").addClass("btn-outline-light")
 
-        $("nav button").removeClass("btn-outline-dark")
+        $("#navbarSupportedContent button").removeClass("btn-outline-dark")
 
     } else if (text === "light") {
 
@@ -98,9 +98,9 @@ function toggle_mode(initial = false) {
 
         $("nav").addClass("navbar-light bg-light")
 
-        $("nav button").removeClass("btn-outline-light")
+        $("#navbarSupportedContent button").removeClass("btn-outline-light")
 
-        $("nav button").addClass("btn-outline-dark")
+        $("#navbarSupportedContent button").addClass("btn-outline-dark")
 
     }
 
