@@ -7,7 +7,10 @@ var lpapers = 8
 function onload() {
 
     if (iframe) {
-        console.log("iframe detected - not setting wallpaper")
+        console.log("iframe detected - hiding change wallpaper button and not setting wallpaper")
+
+        $("#papechanger").css("display", "none")
+
         return
     }
 
