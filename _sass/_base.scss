@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+.navbar-brand {
+    font-weight: 600;
+}
+
 .navbar-dark, .bg-dark {
     background-color: $header-background !important;
     border-bottom: 1px solid white;
