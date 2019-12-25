@@ -11,6 +11,8 @@ function onload() {
         $("#frame").css("visibility", "visible")
     }
 
+    $("nav").css("visibility", "visible")
+
     // If frame exists
     if (iframe) {
         if (theme === "dark") {
@@ -103,8 +105,6 @@ function toggle_mode(initial = false) {
         $("#navbarSupportedContent button").addClass("btn-outline-dark")
 
     }
-
-    $("nav").css("visibility", "visible")
 
     // The paper needs to be updated
     set_paper()
