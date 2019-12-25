@@ -4,10 +4,12 @@ html, body {
 
 .navbar-dark, .bg-dark {
     background-color: $header-background !important;
+    border-bottom: 1px solid white;
 }
 
 .navbar-light, .bg-light {
     background-color: #eeeeee !important;
+    border-bottom: 1px solid black;
 }
 
 h1, p, #copyright, #content {
