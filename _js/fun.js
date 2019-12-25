@@ -9,10 +9,10 @@ function onload() {
         if (num === 50 || funcheat) {
     
             console.log("Wow, there was a 1% chance of this happening")
-
-            alert("There was a 1% chance of this happening -- you're lucky!")
     
             fun()
+
+            alert("There was a 1% chance of this happening -- you're lucky!")
     
         } else {
             console.log("No luck this time: " + num)
