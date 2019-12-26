@@ -20,4 +20,8 @@ function onload() {
 
 }
 
-$(document).ready(onload)
+if (firefox) {
+    $(window).on("load", onload)
+} else {
+    $(document).ready(onload)
+}
