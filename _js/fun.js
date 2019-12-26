@@ -10,7 +10,7 @@ function onload() {
     
             console.log("Wow, there was a 1% chance of this happening")
     
-            fun()
+            funfunc()
 
             alert("There was a 1% chance of this happening -- you're lucky!")
     
@@ -28,7 +28,7 @@ if (fun) {
     console.log("Note: fun disabled")
 }
 
-function fun() {
+function funfunc() {
 
     $(".navbar-brand")
                 .text("What the Fuck™")
