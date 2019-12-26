@@ -24,14 +24,14 @@ function onload() {
 
     if (!lpaper) {
         console.log("Setting default wallpaper for light theme")
-        localStorage.setItem("lpaper", "3")
-        lpaper = "1"
+        lpaper = "3"
+        localStorage.setItem("lpaper", lpaper)
     }
 
     if (!dpaper) {
         console.log("Setting default wallpaper for dark theme")
-        localStorage.setItem("dpaper", "3")
-        dpaper = "6"
+        dpaper = "3"
+        localStorage.setItem("dpaper", dpaper)
     }
 
     // Set the wallpaper
