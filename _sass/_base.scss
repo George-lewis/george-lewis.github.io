@@ -37,7 +37,7 @@ body {
     flex-direction: column;
 }
 
-.navbar-toggler, #papechanger {
+.navbar-toggler, .form-inline > *:not(:first-child) {
     margin-left: 10px;
 }
 
