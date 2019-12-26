@@ -61,11 +61,15 @@ function toggle_iframe() {
 }
 
 // Toggles dark theme
-function toggle_mode(initial = false) {
+function toggle_mode(initial = false, theme = null) {
 
     let dl = $("#darklight")
 
     let text = dl.text().toLowerCase()
+
+    if (theme) {
+        text = theme
+    }
 
     if (!initial) {
         if (iframe) {
@@ -107,6 +111,7 @@ function toggle_mode(initial = false) {
     }
 
     // The paper needs to be updated
-    set_paper()
+    if (!initial)
+        set_paper()
 
 }
