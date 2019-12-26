@@ -106,13 +106,22 @@ function set_paper(i = null, type = null) {
     img.addEventListener("load", function() {
         Vibrant.from(img).getPalette().then(
             function(palette){
-                let vib = palette["Vibrant"].getRgb()
+                let vib = palette["Vibrant"]
+
+                if (!vib) {
+                    $(".navbar-brand").css("color","")
+                    return
+                }
+
+                vib = vib.getRgb()
+
                 // if (theme === "dark") {
                 //     var vib = palette["LightVibrant"].getRgb()
                 // } else {
                 //     var vib = palette["DarkVibrant"].getRgb()
                 // }
 
+                console.log(vib)
             
                 let col = $("nav").css("background-color").replace("rgb(", "").replace(")", "").split(", ")
 
@@ -120,7 +129,11 @@ function set_paper(i = null, type = null) {
 
                 console.log(c)
 
-                if (c > 0.55 && theme === "light" || c < 3.5 && theme === "dark") {
+                if (c > 0.50 && theme === "light" || c < 3.5 && theme === "dark") {
+                    if (theme === "dark") {
+                    $(".navbar-brand").css("color","")
+                    return
+                }
                     if (theme === "dark") {
                         vib = palette["LightVibrant"].getRgb()
                     } else {
