@@ -10,7 +10,7 @@ function onload() {
 
     if (iframe) {
 
-        let printable = "<a class=\"btn btn-outline-dark\" href=\"REPLACE\">Printable Version</a>"
+        let printable = "<a class=\"btn btn-outline-dark\" target=\"_blank\" href=\"REPLACE\">Printable Version</a>"
 
         printable = printable.replace("REPLACE", frame.attr("src"))
 
