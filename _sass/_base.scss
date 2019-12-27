@@ -28,8 +28,14 @@ h1, p, #copyright, #content {
 
 }
 
+html {
+    background-size: cover;
+    background-position: center;
+}
+
 body {
-    background-color: $header-background;
+    // background-color: $header-background;
+    background-color: transparent;
     /*background-image: url("/_assets/bg/light/bg1.jpg");*/
     background-size: cover;
     background-position: center;

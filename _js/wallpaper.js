@@ -79,10 +79,10 @@ function set_paper(i = null, type = null) {
     let url = "url(\"" + path + "\")"
 
     // Don't want to set it to a value it's already set to
-    if (!$("body").css("background-image").includes(path)) {
+    if (!$("html").css("background-image").includes(path)) {
         // Set it
         console.log("Set wallpaper to: " + path)
-        $("body").css("background-image", url)
+        $("html").css("background-image", url)
     } else {
         console.log("Setting wallpaper to '" + path + "' would have no effect -- not setting")
     }

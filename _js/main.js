@@ -18,10 +18,16 @@ function onload() {
 
         console.log("Fix iframe anchor tags")
 
-        $("#frame").contents().find("a").attr("target", "_blank")
+        frame.on("load", function () {
+            frame.contents().find("a").attr("target", "_blank")
+        })
 
     }
 
 }
 
-$(window).on("load", onload)
+if (firefox) {
+    $(window).on("load", onload)
+} else {
+    $(document).ready(onload)
+}
