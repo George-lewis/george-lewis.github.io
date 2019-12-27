@@ -56,6 +56,8 @@ function toggle_iframe() {
 
         body.find("blockquote").toggleClass("blockquote-dark")
 
+        body.find("a").toggleClass("a-dark")
+
         github = body.find("#github")
 
         if (github.length > 0) {
