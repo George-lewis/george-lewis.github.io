@@ -52,7 +52,7 @@ function toggle_iframe() {
 
         body.find(".md-fences").toggleClass("md-fences-dark")
 
-        body.find("code").toggleClass("code-dark")
+        body.find("p > code").toggleClass("code-dark")
 
         body.find("blockquote").toggleClass("blockquote-dark")
 

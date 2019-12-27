@@ -16,7 +16,7 @@
     padding: 3px;
 }
 
-.md-fences-dark {
+.md-fences-dark, .highlight {
     color:rgb(51, 51, 51) !important;
     background-color: #eeeeee !important;
 }
