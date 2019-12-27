@@ -5,10 +5,16 @@ permalink: /blog/
 order: 4
 ---
 
+<h3>Programming</h3>
+
 {% for post in site.posts %}
 
-<a class="btn btn-outline-light post-title" href="{{ post.url }}">{{ post.title }}</a>
-	<!--<p>"{{ post.excerpt }}"</p>-->
+	{% if post.tags contains "programming" %}
+
+		<a class="btn btn-outline-light post-title blog-post" href="{{ post.url }}">{{ post.title }}</a>
+		<!--<p>"{{ post.excerpt }}"</p>-->
+
+	{% endif %}
 
 {% endfor %}
 
