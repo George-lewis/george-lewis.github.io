@@ -56,6 +56,14 @@ function toggle_iframe() {
 
         body.find("blockquote").toggleClass("blockquote-dark")
 
+        github = body.find("#github")
+
+        if (github.attr("src").endsWith("github.svg")) {
+            github.attr("src", "/_assets/github-white.svg")
+        } else {
+            github.attr("src", "/_assets/github.svg")
+        }
+
     }
 
 }
