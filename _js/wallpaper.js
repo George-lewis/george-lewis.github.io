@@ -1,6 +1,6 @@
 // These values represent how many different wallpapers are available
 // For the dark (dpapers) and light (lpapers) themes
-var dpapers = 12
+var dpapers = 13
 var lpapers = 8
 
 // Runs on page load
