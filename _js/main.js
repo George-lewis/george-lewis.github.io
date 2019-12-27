@@ -16,12 +16,12 @@ function onload() {
 
         $("nav .form-inline").append(printable)
 
+        console.log("Fix iframe anchor tags")
+
+        $("#frame").contents().find("a").attr("target", "_blank")
+
     }
 
 }
 
-if (firefox) {
-    $(window).on("load", onload)
-} else {
-    $(document).ready(onload)
-}
+$(window).on("load", onload)
