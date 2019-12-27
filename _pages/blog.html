@@ -5,16 +5,27 @@ permalink: /blog/
 order: 4
 ---
 
-<h3>Programming</h3>
+{% assign taglist = "programming" | split: "," %}
 
-{% for post in site.posts %}
+{% for tag in taglist %}
 
-	{% if post.tags contains "programming" %}
+	<div class="post-category">
 
-		<a class="btn btn-outline-light post-title blog-post" href="{{ post.url }}">{{ post.title }}</a>
-		<!--<p>"{{ post.excerpt }}"</p>-->
+	<h3>{{ tag | capitalize }}</h3>
 
-	{% endif %}
+	{% for post in site.posts %}
+
+		{% if post.tags contains tag %}
+
+			<a class="btn btn-outline-light post-title blog-post" href="{{ post.url }}">{{ post.title }}</a>
+			<!--<p>"{{ post.excerpt }}"</p>-->
+
+		{% endif %}
+
+	{% endfor %}
+
+	<div class="post-ender"></div>
+
+	</div>
 
 {% endfor %}
-

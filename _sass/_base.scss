@@ -131,3 +131,14 @@ iframe, nav {
 .blog-post {
     font-size: 1.2em;
 }
+
+#content > .post-category:not(:last-child) > .post-ender {
+
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 50%;
+
+}
