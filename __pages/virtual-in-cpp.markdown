@@ -1,6 +1,6 @@
 ---
 layout: styled-md
-styling: github-styling.html
+styling: github
 ---
 
 <div style="text-align:right; width:100%; font-size:18px;">George Lewis - 22 December 2019</div>

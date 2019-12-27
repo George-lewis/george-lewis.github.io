@@ -1,6 +1,6 @@
 ---
 layout: styled-md
-styling: blog-styling.html
+styling: blog
 ---
 
 <div style="text-align: right;">George Lewis - 26 December 2019</div>
