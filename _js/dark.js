@@ -58,10 +58,14 @@ function toggle_iframe() {
 
         github = body.find("#github")
 
-        if (github.attr("src").endsWith("github.svg")) {
-            github.attr("src", "/_assets/github-white.svg")
-        } else {
-            github.attr("src", "/_assets/github.svg")
+        if (github.length > 0) {
+
+            if (github.attr("src").endsWith("github.svg")) {
+                github.attr("src", "/_assets/github-white.svg")
+            } else {
+                github.attr("src", "/_assets/github.svg")
+            }
+
         }
 
     }
