@@ -3,7 +3,7 @@ var iframe = frame.length > 0
 
 var firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1
 
-var fun = true
+var fun = false
 var funcheat = false
 
 function onload() {
@@ -15,6 +15,12 @@ function onload() {
         printable = printable.replace("REPLACE", frame.attr("src"))
 
         $("nav .form-inline").append(printable)
+
+        console.log("Fix iframe anchor tags")
+
+        frame.on("load", function () {
+            frame.contents().find("a").attr("target", "_blank")
+        })
 
     }
 

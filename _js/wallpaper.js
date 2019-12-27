@@ -23,15 +23,15 @@ function onload() {
     // Set the default papers if there is no value
 
     if (!lpaper) {
-        console.log("Setting default wallpaper for light theme")
-        localStorage.setItem("lpaper", "1")
-        lpaper = "1"
+        lpaper = "3"
+        console.log("Setting default wallpaper for light theme: " + lpaper)
+        localStorage.setItem("lpaper", lpaper)
     }
 
     if (!dpaper) {
-        console.log("Setting default wallpaper for dark theme")
-        localStorage.setItem("dpaper", "6")
-        dpaper = "6"
+        dpaper = "3"
+        console.log("Setting default wallpaper for dark theme: " + dpaper)
+        localStorage.setItem("dpaper", dpaper)
     }
 
     // Set the wallpaper
@@ -93,10 +93,10 @@ function set_paper(i = null, type = null) {
     let url = "url(\"" + path + "\")"
 
     // Don't want to set it to a value it's already set to
-    if (!$("body").css("background-image").includes(path)) {
+    if (!$("html").css("background-image").includes(path)) {
         // Set it
         console.log("Set wallpaper to: " + path)
-        $("body").css("background-image", url)
+        $("html").css("background-image", url)
     } else {
         console.log("Setting wallpaper to '" + path + "' would have no effect -- not setting")
     }

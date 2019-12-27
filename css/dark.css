@@ -16,11 +16,19 @@
     padding: 3px;
 }
 
-.md-fences-dark {
+.md-fences-dark, .highlight {
     color:rgb(51, 51, 51) !important;
     background-color: #eeeeee !important;
 }
 
 .blockquote-dark {
     color: #bbbbbb;
+}
+
+html {
+    background-color: #eeeeee;
+}
+
+.a-dark {
+    color: rgb(110, 168, 255)
 }

@@ -52,20 +52,38 @@ function toggle_iframe() {
 
         body.find(".md-fences").toggleClass("md-fences-dark")
 
-        body.find("code").toggleClass("code-dark")
+        body.find("p > code").toggleClass("code-dark")
 
         body.find("blockquote").toggleClass("blockquote-dark")
+
+        body.find("a").toggleClass("a-dark")
+
+        github = body.find("#github")
+
+        if (github.length > 0) {
+
+            if (github.attr("src").endsWith("github.svg")) {
+                github.attr("src", "/_assets/github-white.svg")
+            } else {
+                github.attr("src", "/_assets/github.svg")
+            }
+
+        }
 
     }
 
 }
 
 // Toggles dark theme
-function toggle_mode(initial = false) {
+function toggle_mode(initial = false, theme = null) {
 
     let dl = $("#darklight")
 
     let text = dl.text().toLowerCase()
+
+    if (theme) {
+        text = theme
+    }
 
     if (!initial) {
         if (iframe) {
@@ -107,6 +125,7 @@ function toggle_mode(initial = false) {
     }
 
     // The paper needs to be updated
-    set_paper()
+    if (!initial)
+        set_paper()
 
 }

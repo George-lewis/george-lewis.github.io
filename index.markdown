@@ -4,6 +4,7 @@
 layout: page
 title: George Lewis | 乔治
 title_override: Home
+permalink: /
 css: index.css
 order: 0
 ---
