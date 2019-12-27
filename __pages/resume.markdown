@@ -1,7 +1,6 @@
 ---
 layout: styled-md
 styling: resume-styling.html
-title: test
 ---
 
 <div style="display:flex;margin:0;"><div><p style="font-size:30px;font-weight:bold;margin:0;margin-bottom:12px;">George Lewis</p><p style="font-size: 18px; font-weight:600;margin:0;margin-bottom:7px;">Developer</p><p style="font-size: 18px; font-weight:600;margin:0;">Student</p></div><div style="margin-left:auto; margin-top:0;"><p style="margin:0;margin-bottom:5px;">🌐 https://georgelewis.ca</p><p style="margin:0;margin-bottom:5px;">📧 george@georgelewis.ca</p><p style="margin:0;margin-bottom:5px;">📱 289-400-1216</p><p style="margin:0;"><img style="display:inline-block;" id="github" height="20" width="20" src="/_assets/github.svg" /> George-Lewis</p></div></div>
