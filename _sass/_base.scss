@@ -3,6 +3,12 @@ html {
 }
 
 body {
+
+
+    // This is some serious fucking voodoo
+    // https://stackoverflow.com/questions/8468066/child-inside-parent-with-min-height-100-not-inheriting-height
+    height: 1px;
+
     min-height: 100%;
 }
 
