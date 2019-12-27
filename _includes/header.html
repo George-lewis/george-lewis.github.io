@@ -9,7 +9,7 @@
         
         <ul class="navbar-nav mr-auto">
 
-            {% assign sorted_pages = site.pages | sort:"order" %}
+            {% assign sorted_pages = site.pages | where_exp:"permalink", "permalink != nil" | sort:"order" %}
 
             {% for page in sorted_pages %}
                 {% if page.title %}
