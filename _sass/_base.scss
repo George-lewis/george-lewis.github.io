@@ -9,9 +9,11 @@ body {
 
     // This is some serious fucking voodoo
     // https://stackoverflow.com/questions/8468066/child-inside-parent-with-min-height-100-not-inheriting-height
-    height: 1px;
+    //height: 1px;
+    // This broke the normal pages
+    // See main.js::onload
 
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 .navbar-brand {

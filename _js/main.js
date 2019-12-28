@@ -22,6 +22,9 @@ function onload() {
             frame.contents().find("a").attr("target", "_blank")
         })
 
+        // Bit of a css hack for the iframe pages
+        $("body").css("height", "100vh")
+
     }
 
 }
