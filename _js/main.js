@@ -23,6 +23,10 @@ function onload() {
         })
 
         // Bit of a css hack for the iframe pages
+        // For some reason the normal pages are just fine with
+        // Only having a min-height on the body
+        // But this means that the iframes cant size automatically for some reason
+        // Setting the body to height 100% seems to solve this issues
         $("body").css("height", "100vh")
 
     }
