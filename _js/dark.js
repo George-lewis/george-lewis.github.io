@@ -58,7 +58,7 @@ function toggle_iframe() {
 
         body.find("a").toggleClass("a-dark")
 
-        github = body.find("#github")
+        github = body.find(".github")
 
         if (github.length > 0) {
 

@@ -3,7 +3,8 @@ layout: styled-md
 styling: resume
 ---
 
-<div style="display:flex;margin:0;"><div><p style="font-size:30px;font-weight:bold;margin:0;margin-bottom:12px;">George Lewis</p><p style="font-size: 18px; font-weight:600;margin:0;margin-bottom:7px;">Developer</p><p style="font-size: 18px; font-weight:600;margin:0;">Student</p></div><div style="margin-left:auto; margin-top:0;"><p style="margin:0;margin-bottom:5px;">🌐&#xfe0e; https://georgelewis.ca</p><p style="margin:0;margin-bottom:5px;">📧&#xfe0e; george@georgelewis.ca</p><p style="margin:0;margin-bottom:5px;">📱&#xfe0e; 289-400-1216</p><p style="margin:0;"><img style="display:inline-block;" id="github" height="20" width="20" src="/_assets/github.svg" /> George-Lewis</p></div></div>
+<div style="display:flex;margin:0;"><div><p style="font-size:30px;font-weight:bold;margin:0;margin-bottom:12px;">George Lewis</p><p style="font-size: 18px; font-weight:600;margin:0;margin-bottom:7px;">Developer</p><p style="font-size: 18px; font-weight:600;margin:0;">Student</p></div><div style="margin-left:auto; margin-top:0;"><p style="margin:0;margin-bottom:5px;">🌐&#xfe0e; https://georgelewis.ca</p><p style="margin:0;margin-bottom:5px;">📧&#xfe0e; george@georgelewis.ca</p><p style="margin:0;margin-bottom:5px;">📱&#xfe0e; 289-400-1216</p><p style="margin:0;"><img style="display:inline-block;" class="github" height="20" width="20" src="/_assets/github.svg" /> George-Lewis</p></div></div>
+
 ---
 
 ### **Executive Summary**
@@ -26,7 +27,7 @@ styling: resume
 
 **Other**: Extensive **Linux** experience
 
-### **Projects**
+### **Projects** <img class="github" height="20" width="20" src="/_assets/github.svg" />
 
 ---
 
