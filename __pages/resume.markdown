@@ -9,8 +9,9 @@ styling: resume
 ### **Executive Summary**
 
 - Computer science and Mandarin Chinese student at **UofT**
-- Skills include Java, Kotlin, Python, C, C++, and Linux
 - Good communication skills developed through work experience
+- Comfortable with version control software
+- Familiar with **SCRUM**
 
 ### **Skills**
 
@@ -29,6 +30,8 @@ styling: resume
 
 ---
 
+- **Personal Website**: Designed in HTML, CSS, and JavaScript using Jekyll and JQuery
+- **Resauce**: Mass file renaming software created with C++/Qt and a team of two
 - **KEdit**: General purpose text editor made with Kotlin and JavaFX
 - **JSpotify**: Java library for accessing a local Spotify:registered: client
 - **i3-Manager**: Python script for managing [i3](https://i3wm.org/) configurations
@@ -56,9 +59,14 @@ styling: resume
 - ##### Warehouse Associate - UPS Supply Chain Solutions (Summer 2019)
 
   - Developed ability to work independently while being part of a team
-  - Licensed to operate several types of machinery
+  - Trained and licensed to operate several kinds of warehouse lifts and trucks
 
 - ##### Bartender - The Blind Duck (09/2018 - 4/2019)
 
   - Communication skills developed through cooperating with coworkers in a fast paced environment and through interacting with customers
   - Licensed to serve alcohol in Ontario
+  
+- **Grocery Clerk - Metro Richeliu (09/2015 - 09/2018)**
+
+  - Developed problem-solving skills by assisting customers
+  - Developed time-management skills by having a set number of duties that must be completed in a fixed timeframe
