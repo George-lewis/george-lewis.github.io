@@ -7,41 +7,7 @@ styling: resume
 
 ---
 
-### **Executive Summary**
-
-- Computer science and Mandarin Chinese student at **UofT**
-- Good communication skills developed through work experience
-- Comfortable with version control software
-- Familiar with **SCRUM**
-
-### **Skills**
-
----
-
-**Languages**:
-
-- **Proficient**: Java, Python, Kotlin
-- **Competent**: C, C++, HTML JavaScript, CSS
-
-**Technologies**: JavaFX, Jekyll, Gradle, Git
-
-**Other**: Extensive **Linux** experience
-
-### **Projects** <img class="github" height="20" width="20" src="/_assets/github.svg" />
-
----
-
-- **Personal Website**: Designed in HTML, CSS, and JavaScript using Jekyll and JQuery
-- **Resauce**: Mass file renaming software created with C++/Qt and a team of two
-- **KEdit**: General purpose text editor made with Kotlin and JavaFX
-- **JSpotify**: Java library for accessing a local Spotify:registered: client
-- **i3-Manager**: Python script for managing [i3](https://i3wm.org/) configurations
-- **Tic-Tac-Toe**: Created with C++ and Qt
-- **DVDBounce**: Screensaver created with C++ and SFML - Also on Android
-
 ### **Formal Education**
-
----
 
 **University of Toronto** Mississauga Campus
 
@@ -53,9 +19,9 @@ styling: resume
 - **[International Baccalaureate](https://www.ibo.org/)** certificates in: Math, Physics, and Economics
 - Graduating average: 92%
 
-### **Work Experience**
-
 ---
+
+### **Work Experience**
 
 - ##### Warehouse Associate - UPS Supply Chain Solutions (Summer 2019)
 
@@ -71,3 +37,37 @@ styling: resume
 
   - Developed problem-solving skills by assisting customers
   - Developed time-management skills by having a set number of duties that must be completed in a fixed timeframe
+
+---
+
+### **Projects** <img class="github" height="20" width="20" src="/_assets/github.svg" />
+
+- **Personal Website**: Designed in HTML, CSS, and JavaScript using Jekyll and JQuery
+- **Resauce**: Mass file renaming software created with C++/Qt and a team of two
+- **KEdit**: General purpose text editor made with Kotlin and JavaFX
+- **JSpotify**: Java library for accessing a local Spotify:registered: client
+- **i3-Manager**: Python script for managing [i3](https://i3wm.org/) configurations
+- **Tic-Tac-Toe**: Created with C++ and Qt
+- **DVDBounce**: Screensaver created with C++ and SFML - Also on Android
+
+---
+
+### **Skills**
+
+**Languages**:
+
+- **Proficient**: Java, Python, Kotlin
+- **Competent**: C, C++, HTML JavaScript, CSS
+
+**Technologies**: JavaFX, Jekyll, Gradle, Git
+
+**Other**: Extensive **Linux** experience
+
+---
+
+### **Executive Summary**
+
+- Computer science and Mandarin Chinese student at **UofT**
+- Good communication skills developed through work experience
+- Comfortable with version control software
+- Familiar with **SCRUM**
