@@ -61,13 +61,4 @@ styling: resume
 
 **Technologies**: JavaFX, Jekyll, Gradle, Git
 
-**Other**: Extensive **Linux** experience
-
----
-
-### **Executive Summary**
-
-- Computer science and Mandarin Chinese student at **UofT**
-- Good communication skills developed through work experience
-- Comfortable with version control software
-- Familiar with **SCRUM**
+**Other**: Extensive **Linux** experience, SCRUM experience
