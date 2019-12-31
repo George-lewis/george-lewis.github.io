@@ -70,6 +70,18 @@ function toggle_iframe() {
 
         }
 
+        linkedin = body.find(".linkedin")
+
+        if (linkedin.length > 0) {
+
+            if (linkedin.attr("src").endsWith("linkedin.svg")) {
+                linkedin.attr("src", "/_assets/linkedin-white.svg")
+            } else {
+                linkedin.attr("src", "/_assets/linkedin.svg")
+            }
+
+        }
+
     }
 
 }
