@@ -12,6 +12,8 @@ styling: resume
 **University of Toronto** Mississauga Campus
 
 - Computer Science Specialist
+  - CSC207: Software Design (Design patterns and SCRUM)
+  - CSC236: The Theory of Computation
 - Chinese minor
 
 **Robert Bateman** High School
@@ -44,11 +46,16 @@ styling: resume
 
 - **Personal Website**: Designed in HTML, CSS, and JavaScript using Jekyll and JQuery
 - **Resauce**: Mass file renaming software created with C++/Qt and a team of two
+  - Renames a set of files according to user-defined rules
+- **DVDBounce**: Screensaver created with C++ and SFML
+  - Can be compiled for Android using the NDK
+  - Has a configuration file and also accepts command-line parameters
 - **KEdit**: General purpose text editor made with Kotlin and JavaFX
+  - Fully functional editor with saving/loading, undo/redo, and copy/paste
 - **JSpotify**: Java library for accessing a local Spotify:registered: client
 - **i3-Manager**: Python script for managing [i3](https://i3wm.org/) configurations
 - **Tic-Tac-Toe**: Created with C++ and Qt
-- **DVDBounce**: Screensaver created with C++ and SFML - Also on Android
+
 
 ---
 
