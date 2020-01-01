@@ -66,6 +66,6 @@ styling: resume
 - **Proficient**: Java, Python, Kotlin
 - **Competent**: C, C++, HTML JavaScript, CSS
 
-**Technologies**: JavaFX, Jekyll, Gradle, Git
+**Technologies**: JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
 
 **Other**: Extensive **Linux** experience, SCRUM experience
