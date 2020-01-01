@@ -44,16 +44,16 @@ styling: resume
 
 ### **Projects** <img class="github" height="20" width="20" src="/_assets/github.svg" />
 
-- **Personal Website**: Designed in HTML, CSS, and JavaScript using Jekyll and JQuery
-- **Resauce**: Mass file renaming software created with C++/Qt and a team of two
+- **[Personal Website](https://github.com/george-lewis/george-lewis.github.io)**: Designed in HTML, CSS, and JavaScript using Jekyll and JQuery
+- **[Resauce](https://github.com/darenliang/resauce)**: Mass file renaming software created with C++/Qt and a team of two
   - Renames a set of files according to user-defined rules
-- **DVDBounce**: Screensaver created with C++ and SFML
+- **[DVDBounce](https://github.com/George-lewis/DVDBounce)**: Screensaver created with C++ and SFML
   - Can be compiled for Android using the NDK
   - Has a configuration file and also accepts command-line parameters
-- **KEdit**: General purpose text editor made with Kotlin and JavaFX
+- **[KEdit](https://github.com/George-lewis/kedit)**: General purpose text editor made with Kotlin and JavaFX
   - Fully functional editor with saving/loading, undo/redo, and copy/paste
-- **JSpotify**: Java library for accessing a local Spotify:registered: client
-- **i3-Manager**: Python script for managing [i3](https://i3wm.org/) configurations
+- **[JSpotify](https://github.com/George-lewis/jspotify)**: Java library for accessing a local Spotify:registered: client
+- **[i3-Manager](https://github.com/George-lewis/i3-manager)**: Python script for managing [i3](https://i3wm.org/) configurations
 - **Tic-Tac-Toe**: Created with C++ and Qt
 
 
