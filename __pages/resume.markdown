@@ -35,10 +35,10 @@ styling: resume
   - Communication skills developed through cooperating with coworkers in a fast paced environment and through interacting with customers
   - Licensed to serve alcohol in Ontario
   
-- **Grocery Clerk - Metro Richeliu (09/2015 - 09/2018)**
+- ##### Grocery Clerk - Metro Richeliu (09/2015 - 09/2018)
 
-  - Developed problem-solving skills by assisting customers
-  - Developed time-management skills by having a set number of duties that must be completed in a fixed timeframe
+  - Developed problem-solving skills by directly assisting customers with their needs
+  - Good time-management skills acquired by being responsible for multiple duties
 
 ---
 
