@@ -4,7 +4,6 @@ styling: github
 ---
 
 <div style="text-align:right; width:100%; font-size:18px;">George Lewis - 22 December 2019</div>
-
 # Virtual in C++ - How does it work?
 
 ### The Problem
@@ -150,8 +149,8 @@ Notice that what we've done is essentially implement the virtual table ourselves
 
 ### References and Further Reading
 
-1. https://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c
-2. https://stackoverflow.com/questions/8194250/polymorphism-in-c
-3. https://www.learncpp.com/cpp-tutorial/124-early-binding-and-late-binding/
-4. https://www.learncpp.com/cpp-tutorial/125-the-virtual-table/
-5. https://www.learncpp.com/cpp-tutorial/126-pure-virtual-functions-abstract-base-classes-and-interface-classes/
+1. <https://stackoverflow.com/questions/2391679/why-do-we-need-virtual-functions-in-c>
+2. <https://stackoverflow.com/questions/8194250/polymorphism-in-c>
+3. <https://www.learncpp.com/cpp-tutorial/124-early-binding-and-late-binding/>
+4. <https://www.learncpp.com/cpp-tutorial/125-the-virtual-table/>
+5. <https://www.learncpp.com/cpp-tutorial/126-pure-virtual-functions-abstract-base-classes-and-interface-classes/>
