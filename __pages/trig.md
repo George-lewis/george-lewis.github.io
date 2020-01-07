@@ -3,6 +3,14 @@ layout: styled-md
 styling: github
 ---
 
+<script>
+    (function () {
+        if (window.innerWidth < 720) {
+            alert("Sorry, your screen may not be wide enough to display all the math.")
+        }
+    })()
+</script>
+
 <!-- MatJax settings -->
 <script>
 MathJax = {
