@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 order: 1
+description: A small bio about George
 ---
 
 <img src="/_assets/me.png" alt="A picture of me." class="img-fluid" id="me" />
