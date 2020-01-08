@@ -1,6 +1,7 @@
 ---
 permalink: /trig
-title: Trig
+title: Trigonometric Identities
+title_override: Trig
 order: 5
 layout: iframe
 link: /__pages/trig.html
