@@ -39,6 +39,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# seo tag
+tagline: "George Lewis' personal site"
+description: "The personal website of George Lewis, a developer and student."
+author: "George Lewis"
+
 # Build settings
 #theme: minima
 #plugins:
