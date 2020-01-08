@@ -37,6 +37,7 @@ kramdown:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Build settings
 #theme: minima
