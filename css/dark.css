@@ -2,6 +2,10 @@
     /*background-image: url("/_assets/bg/dark/bg10.jpg");*/
 }
 
+.iframe-body-dark h1, .iframe-body-dark h2 {
+    border-bottom: 1px solid #eeeeee !important;
+}
+
 .iframe-body-dark {
     background-color: #202020 !important;
     color: #eeeeee !important;
