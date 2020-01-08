@@ -35,6 +35,9 @@ sass:
 kramdown:
   input: GFM
 
+plugins:
+  - jekyll-seo-tag
+
 # Build settings
 #theme: minima
 #plugins:
