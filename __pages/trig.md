@@ -63,9 +63,9 @@ $\csc(-x) = -\csc(x) \ \sec(-x) = -\sec(x) \ \cot(-x) = -\cot(x)$
 
 $\sin(u \pm v) = \sin(u) \cos(v) \pm \cos(u) \sin(v)$
 
-$\cos(u \pm v) = \cos(u) \cos(v) \pm \sin(u) \sin(v)$
+$\cos(u \pm v) = \cos(u) \cos(v) \mp \sin(u) \sin(v)$
 
-$\tan(u \pm v) = \frac {\tan(u) \pm \tan(v)} {1 \pm \tan(u) \tan(v)}$
+$\tan(u \pm v) = \frac {\tan(u) \pm \tan(v)} {1 \mp \tan(u) \tan(v)}$
 
 ## Double Angle Formulas
 
