@@ -64,7 +64,7 @@ styling: resume
 **Languages**:
 
 - **Proficient**: Java, Python, Kotlin
-- **Competent**: C, C++, HTML JavaScript, CSS
+- **Competent**: C, C++, HTML JavaScript, CSS, Bash
 
 **Technologies**: JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
 
