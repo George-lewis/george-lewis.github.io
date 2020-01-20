@@ -87,13 +87,14 @@ Note regarding centering of #content:
 }
 
 #content {
-	border: 1px solid white;
+    border: 1px solid white;
     padding: 40px;
     width: 100%;
     background-color: rgba(0,0,0,0.2);
     backdrop-filter: blur(15px);
     text-align: center;
     margin-top: 25px;
+    box-shadow: 3px 3px 13px 5px black;
 }
 
 @supports not (backdrop-filter: blur(15px)) {
