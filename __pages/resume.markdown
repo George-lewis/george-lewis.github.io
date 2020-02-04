@@ -28,7 +28,7 @@ styling: resume
 
 - Computer Science Specialist
   - CSC207: Software Design (Design patterns and SCRUM)
-  - CSC236: The Theory of Computation
+  - CSC209: Systems Programming (C and low-level concepts)
 - Chinese minor
 
 **Robert Bateman** High School
