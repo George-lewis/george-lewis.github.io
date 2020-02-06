@@ -28,13 +28,9 @@ styling: resume
 
 - Computer Science Specialist
   - CSC207: Software Design (Design patterns and SCRUM)
+  - CSC263: Data Structures and Analysis (Analysis of efficient algorithms using smart data-structures)
   - CSC209: Systems Programming (C and low-level concepts)
 - Chinese minor
-
-**Robert Bateman** High School
-
-- **[International Baccalaureate](https://www.ibo.org/)** certificates in: Math, Physics, and Economics
-- Graduating average: 92%
 
 ---
 
