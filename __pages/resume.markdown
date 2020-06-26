@@ -9,8 +9,6 @@ styling: resume
 ### **Projects** <img class="github" height="20" width="20" src="/_assets/github.svg" />
 
 - **[Personal Website](https://github.com/george-lewis/george-lewis.github.io)**: Designed in HTML, CSS, and JavaScript using Jekyll and JQuery
-- **[Resauce](https://github.com/darenliang/resauce)**: Mass file renaming software created with C++/Qt and a team of two
-  - Renames a set of files according to user-defined rules
 - **[DVDBounce](https://github.com/George-lewis/DVDBounce)**: Screensaver created with C++ and SFML
   - Can be compiled for Android using the NDK
   - Has a configuration file and also accepts command-line parameters
@@ -27,29 +25,28 @@ styling: resume
 **University of Toronto** Mississauga Campus
 
 - Computer Science Specialist
+  - Latest Semesterial GPA: 3.6
   - CSC207: Software Design (Design patterns and SCRUM)
   - CSC263: Data Structures and Analysis (Analysis of efficient algorithms using smart data-structures)
-  - CSC209: Systems Programming (C and low-level concepts)
 - Chinese minor
 
 ---
 
 ### **Work Experience**
 
+- ##### Student Software Engineer - Evertz Microsystems (May 2020 - Current)
+
+  - Effective communication skills developed through working on large projects with a team managed with version control and ticket-tracking software
+  - Developed full-stack ability utilizing a multitude of technologies including Python, Angular, and AWS
+
 - ##### Warehouse Associate - UPS Supply Chain Solutions (Summer 2019)
 
-  - Developed ability to work independently while being part of a team
+  - Developed ability to work independently while being part of a team to complete a larger task
   - Trained and licensed to operate several kinds of warehouse lifts and trucks
 
 - ##### Bartender - The Blind Duck (09/2018 - 4/2019)
 
   - Communication skills developed through cooperating with coworkers in a fast paced environment and through interacting with customers
-  - Licensed to serve alcohol in Ontario
-  
-- ##### Grocery Clerk - Metro Richeliu (09/2015 - 09/2018)
-
-  - Developed problem-solving skills by directly assisting customers with their needs
-  - Good time-management skills acquired by being responsible for multiple duties
 
 ---
 
@@ -57,9 +54,9 @@ styling: resume
 
 **Languages**:
 
-- **Proficient**: Java, Python, Kotlin
-- **Competent**: C, C++, HTML JavaScript, CSS, Bash
+- **Proficient**: Java, Python, Kotlin, Typescript, Javascript, HTML, CSS, SCSS, C
+- **Competent**: C++, Bash/Dash/ZSH
 
-**Technologies**: JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery, Arduino, Raspberry Pi
+**Technologies**: Angular, AWS, Jira, Bitbucket, Confluence JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
 
 **Other**: Extensive **Linux** experience, SCRUM experience
