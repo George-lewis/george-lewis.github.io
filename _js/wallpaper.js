@@ -23,13 +23,13 @@ function onload() {
     // Set the default papers if there is no value
 
     if (!lpaper) {
-        lpaper = "3"
+        lpaper = "1"
         console.log("Setting default wallpaper for light theme: " + lpaper)
         localStorage.setItem("lpaper", lpaper)
     }
 
     if (!dpaper) {
-        dpaper = "3"
+        dpaper = "4"
         console.log("Setting default wallpaper for dark theme: " + dpaper)
         localStorage.setItem("dpaper", dpaper)
     }

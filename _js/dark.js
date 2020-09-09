@@ -3,11 +3,9 @@ function onload() {
 
     let theme = localStorage.getItem("mode")
 
-    // Toggle into dark mode if local storage is set to dark
-    if (theme === "dark") {
+    if (theme !== "light") { // Either theme was set to dark or it is not present, in which case default to dark
         toggle_mode(true)
-    } else { // There is no stored value or its "light" (or something else)
-        localStorage.setItem("mode", "light")
+        localStorage.setItem("mode", "dark")
         $("#frame").css("visibility", "visible")
     }
 
