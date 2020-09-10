@@ -57,6 +57,6 @@ styling: resume
 - **Proficient**: Java, Python, Kotlin, Typescript, Javascript, HTML, CSS, SCSS, C
 - **Competent**: C++, Bash/Dash/ZSH
 
-**Technologies**: Angular, AWS, Jira, Bitbucket, Confluence JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
+**Technologies**: Angular, AWS, Jira, Bitbucket, Confluence, JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
 
 **Other**: Extensive **Linux** experience, SCRUM experience
