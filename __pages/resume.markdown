@@ -11,7 +11,6 @@ styling: resume
 - **[Nikel-rs](https://github.com/George-lewis/Nikel-rs)**: A wrapper library written in Rust for the UofT data API **[Nikel](https://nikel.ml/)**
 - **[Selfmoji](https://github.com/George-lewis/Selfmoji)**: A simple bot for Discord:tm: that emulates custom-emoji behaviour
   - Created in Python 3.8
-  - Consistent configuration through files
 - **[Personal Website](https://github.com/george-lewis/george-lewis.github.io)**: My website, designed in HTML, CSS, and JavaScript using Jekyll and JQuery
 - **[DVDBounce](https://github.com/George-lewis/DVDBounce)**: A screensaver created with C++ and SFML
   - Can be compiled for Android using the NDK
@@ -30,8 +29,7 @@ styling: resume
 - Computer Science Specialist
   - Latest Semesterial GPA: 3.6
   - CSC207: Software Design (Design patterns and SCRUM)
-  - CSC263: Data Structures and Analysis (Analysis of efficient algorithms using smart data-structures)
-- Chinese minor
+  - CSC263: Data Structures and Analysis (Efficient algorithms)
 
 ---
 
@@ -60,6 +58,4 @@ styling: resume
 - **Proficient**: Java, Python, Kotlin, Typescript, Javascript, HTML, CSS, SCSS, C
 - **Competent**: C++, Rust, Bash/Dash/ZSH
 
-**Technologies**: Angular, AWS, Jira, Bitbucket, Confluence, JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
-
-**Other**: Extensive **Linux** experience, SCRUM experience
+**Technologies**: Angular, AWS, Linux, Jira, Bitbucket, JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
