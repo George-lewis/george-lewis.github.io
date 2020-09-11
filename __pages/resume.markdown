@@ -8,15 +8,18 @@ styling: resume
 
 ### **Projects** <img class="github" height="20" width="20" src="/_assets/github.svg" />
 
-- **[Personal Website](https://github.com/george-lewis/george-lewis.github.io)**: Designed in HTML, CSS, and JavaScript using Jekyll and JQuery
-- **[DVDBounce](https://github.com/George-lewis/DVDBounce)**: Screensaver created with C++ and SFML
+- **[Nikel-rs](https://github.com/George-lewis/Nikel-rs)**: A wrapper library written in Rust for the UofT data API **[Nikel](https://nikel.ml/)**
+- **[Selfmoji](https://github.com/George-lewis/Selfmoji)**: A simple bot for Discord:tm: that emulates custom-emoji behaviour
+  - Created in Python 3.8
+  - Consistent configuration through files
+- **[Personal Website](https://github.com/george-lewis/george-lewis.github.io)**: My website, designed in HTML, CSS, and JavaScript using Jekyll and JQuery
+- **[DVDBounce](https://github.com/George-lewis/DVDBounce)**: A screensaver created with C++ and SFML
   - Can be compiled for Android using the NDK
   - Has a configuration file and also accepts command-line parameters
-- **[KEdit](https://github.com/George-lewis/kedit)**: General purpose text editor made with Kotlin and JavaFX
+- **[KEdit](https://github.com/George-lewis/kedit)**: A general purpose text editor made with Kotlin and JavaFX
   - Fully functional editor with saving/loading, undo/redo, and copy/paste
-- **[JSpotify](https://github.com/George-lewis/jspotify)**: Java library for accessing a local Spotify:registered: client
-- **[i3-Manager](https://github.com/George-lewis/i3-manager)**: Python script for managing [i3](https://i3wm.org/) configurations
-- **Tic-Tac-Toe**: Created with C++ and Qt
+- **[JSpotify](https://github.com/George-lewis/jspotify)**: A Java library for accessing a local Spotify:registered: client
+- **[i3-Manager](https://github.com/George-lewis/i3-manager)**: A Python script for managing [i3](https://i3wm.org/) configurations
 
 ---
 
@@ -55,7 +58,7 @@ styling: resume
 **Languages**:
 
 - **Proficient**: Java, Python, Kotlin, Typescript, Javascript, HTML, CSS, SCSS, C
-- **Competent**: C++, Bash/Dash/ZSH
+- **Competent**: C++, Rust, Bash/Dash/ZSH
 
 **Technologies**: Angular, AWS, Jira, Bitbucket, Confluence, JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
 
