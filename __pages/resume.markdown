@@ -59,7 +59,3 @@ styling: resume
 - **Competent**: C++, Rust, Bash/Dash/ZSH
 
 **Technologies**: Angular, AWS, Linux, Jira, Bitbucket, JavaFX, Jekyll, Gradle, Git, Qt, Bootstrap, JQuery
-
----
-
-<div style="font-size: 25px; width: 100%; margin-top: 30px; text-align: center;">Hi Jerry :)</div>
