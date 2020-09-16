@@ -24,28 +24,27 @@ styling: resume
 
 ### **Formal Education**
 
-**University of Toronto** Mississauga Campus
+**University of Toronto** Mississauga
 
+- Bachelor of Science (Honours) Candidate 2023
 - Computer Science Specialist
-  - Latest Semesterial GPA: 3.6
-  - CSC207: Software Design (Design patterns and SCRUM)
-  - CSC263: Data Structures and Analysis (Efficient algorithms)
+- Latest Semesterial GPA: 3.6
 
 ---
 
 ### **Work Experience**
 
-- ##### Student Software Engineer - Evertz Microsystems (May 2020 - Current)
+- ##### Student Software Engineer - Evertz Microsystems <span class="date">May 2020 - Present</span>
 
-  - Effective communication skills developed through working on large projects with a team managed with version control and ticket-tracking software
+  - Worked on a team with large projects in a fast-paced environment managed with version control and ticket-tracking software
   - Developed full-stack ability utilizing a multitude of technologies including Python, Angular, and AWS
 
-- ##### Warehouse Associate - UPS Supply Chain Solutions (Summer 2019)
+- ##### Warehouse Associate - UPS Supply Chain Solutions <span class="date">June 2019</span>
 
   - Developed ability to work independently while being part of a team to complete a larger task
   - Trained and licensed to operate several kinds of warehouse lifts and trucks
 
-- ##### Bartender - The Blind Duck (09/2018 - 4/2019)
+- ##### Bartender - The Blind Duck <span class="date">September 2018 - April 2019</span>
 
   - Communication skills developed through cooperating with coworkers in a fast paced environment and through interacting with customers
 
