@@ -89,7 +89,7 @@ $\cos(u) - \cos(v) = -2 \sin\left(\frac {u + v} {2}\right) \sin\left(\frac {u - 
 
 $\sin(u) \sin(v) = \frac 1 2 \left[ \cos(u - v) - \cos(u + v) \right]$
 
-$\cos(u) \cos(v) = \frac 1 2 \left[ \cos(u - v) - \cos(u + v) \right]$
+$\cos(u) \cos(v) = \frac 1 2 \left[ \cos(u - v) + \cos(u + v) \right]$
 
 $\sin(u) \cos(v) = \frac 1 2 \left[ \sin(u + v) + \sin(u - v) \right]$
 
